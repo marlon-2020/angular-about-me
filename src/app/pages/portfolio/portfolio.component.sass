@@ -1,0 +1,26 @@
+@import 'mixins'
+@import 'variables'
+
+main
+    min-width: 300px
+    padding: 20px 0
+    background: $black
+    min-height: calc( 100dvh - 60px )
+    .title-container
+        padding: 20px 0
+        .title
+            text-align: center
+    .card-container
+        @include displayFlex(row, center, center, 20px)
+        flex-wrap: wrap
+        .card
+            @include card(250px, 300px, $black2, 10px)
+            @include displayFlex(column, space-between, center, 0px)
+            overflow: hidden
+            img
+                width: 250px
+                height: 100px
+            h2, p
+                padding: 0 10px
+                width: 100%
+                text-align: center

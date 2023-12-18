@@ -1,0 +1,15 @@
+<main>
+    <figure class="photo-container">
+        <img src="./assets/images/marlon-profile.jpg" alt="" class="photo">
+    </figure>
+    <section class="profile-container" *ngFor="let dado of dados">
+        <figure class="btn-container">
+            <div appProfileInvert>&#10162;</div>
+        </figure>
+        <article class="profile"  id="{{ dado.id }}">
+            <h1 class="profile-title"> {{ dado.title }}</h1>
+            <br>
+            <p class="profile-content" appProfileContent *ngFor="let detail of dado.details">{{ detail.info }}</p>
+        </article>
+    </section>
+</main>

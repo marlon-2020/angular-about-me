@@ -1,0 +1,17 @@
+<menu class="menu-mobile">
+    <figure (click)="changeWidth()" (click)="changeClassName()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </figure>
+    <nav class="menu-container" [style.width] = "width">
+        <figure (click)="changeWidth()" (click)="changeClassName()">
+            <div></div>
+            <div></div>
+        </figure>
+        <a routerLink="/about-me">Sobre mim</a>
+        <a routerLink="/portfolio">Portfolio</a>
+    </nav>
+    <div [className]="className" (click)="changeWidth()" (click)="changeClassName()">
+    </div>
+</menu>

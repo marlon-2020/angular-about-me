@@ -1,0 +1,60 @@
+@import 'mixins'
+@import 'variables'
+
+main
+    min-width: 300px
+    padding: 20px 0
+    background: $black
+    min-height: calc( 100dvh - 60px )
+    @include displayFlex(column, center, center, 20px)
+    .photo-container
+        .photo
+            width: 80dvw
+            max-width: 500px
+            border-radius: 50%
+            box-shadow: 3px 3px 7px $white, -3px 3px 7px $white, -3px -3px 7px $white, 3px -3px 7px $white
+    .profile-container
+        width: 90dvw
+        background: $black2
+        border-radius: 10px
+        position: relative
+        min-height: 32px
+        .btn-container
+            position: absolute
+            top: 0px
+            right: 10px
+            width: fit-content
+            font-size: 2rem
+            cursor: pointer
+            div
+                transition: all 0.3s
+                transform: rotate(90deg)
+        .profile
+            padding: 10px
+            min-height: 32px
+            overflow-y: auto
+            .profile-title
+                font-size: 32px
+            .profile-content
+                height: 0
+                padding: 0 10px
+                display: flex
+                overflow-y: hidden
+                align-items: center
+                height: 0
+                transition: height 0.5s
+                text-align: justify
+                font-size: 1.6rem
+
+@media only screen and (min-width: 650px)
+    main
+        
+        flex-wrap: nowrap
+        .photo-container
+            .photo
+                width: 300px
+                max-width: 300px
+        .profile-container
+            width: 600px
+            
+                

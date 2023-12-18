@@ -1,0 +1,18 @@
+@import 'mixins'
+@import 'variables'
+header
+    min-width: 300px
+    @include displayFlex(row, space-between, center, 0px)
+    padding: 0 10px
+    height: 60px
+    background: rgb(20,30,40)
+    figure
+        height: 60px
+        width: 60px
+        .logo
+            height: 60px
+            width: 60px
+            border-radius: 50%
+            transition: transform 0.7s
+            &:hover
+                transform: rotate(35deg)

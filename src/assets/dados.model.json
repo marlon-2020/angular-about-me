@@ -1,0 +1,100 @@
+{
+    "profile": [
+        {
+            "id": 0,
+            "title": "Quem sou?",
+            "details": [
+                {
+                    "info": "Engenheiro eletrônico de formação, nerd desde a infância, entusiasta da tecnologia por herança paterna."
+                },
+                {
+                    "info": "Descobri no desenvolvimento web uma paixão por conhecimento."
+                },
+                {
+                    "info": "Atualmente professor e adorando a troca de aprendizado com alunos e colegas de trabalho."
+                },
+                {
+                    "info": "Apto a novas oportunidades no mercado de desenvolvimento."
+                },
+                {
+                    "info": "Trabalho bem em equipe, sou uma pessoa adaptável, proativa"
+                },
+                {
+                    "info": "Dinâmica, focada e determinada."
+                },
+                {
+                    "info": " Disponível para trabalhos home-office, presencial ou híbrido"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Contato",
+            "details": [
+                {
+                    "info": "Telefone de contato: (81) 985830280"
+                },
+                {
+                    "info": "Email: marlon.ufpe@gmail.com"
+                },
+                {
+                    "info": "Local de moradia: Jaboatão dos Guararapes"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Empregos",
+            "details": [
+                {
+                    "info": "Fundação Bradesco: Professor do ensino médio"
+                },
+                {
+                    "info": "Robótica, desenvolvimento web, lógica de programação, gerência de projetos"
+                },
+                {
+                    "info": "Uninassau: Professor Universitário"
+                },
+                {
+                    "info": "Lógica de programação, desenvolvimento web, html, css, javascript, angular"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Formação",
+            "details": [
+                {
+                    "info": "Universidade Federal de Pernambuco"
+                },
+                {
+                    "info": "Graduação em Engenharia Eletrônica"
+                },
+                {
+                    "info": "Universidade Federal de Pernambuco"
+                },
+                {
+                    "info": "Mestrado em Engenharia Elétrica"
+                },
+                {
+                    "info": "Instituto Federal de Pernambuco"
+                },
+                {
+                    "info": "Técnico em Desenvolvimento Web"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Idiomas",
+            "details": [
+                {
+                    "info": "Inglês - Avançado"
+                },
+                {
+                    "info": "Espanhol - Básico"
+                }
+            ]
+        }
+    ]
+}
