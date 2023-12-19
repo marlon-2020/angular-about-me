@@ -1,0 +1,17 @@
+@import 'mixins'
+@import 'variables'
+
+footer
+    padding: 0 20px
+    background: $black
+    height: 90px
+    menu
+        @include displayFlex(column, space-between, center, 0px)
+        .up-container
+            height: 60px
+            @include displayFlex(row, center, center, 50px)
+            img
+                height: 60px
+                width: 60px
+
+
