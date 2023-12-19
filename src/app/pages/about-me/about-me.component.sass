@@ -44,17 +44,23 @@ main
                 height: 0
                 transition: height 0.5s
                 text-align: justify
-                font-size: 1.3rem
-
+                font-size: .8rem
+@media only screen and (min-width: 400px)
+    main
+        .profile-container
+            .profile
+                .profile-content
+                    font-size: 1.1rem
 @media only screen and (min-width: 650px)
     main
-        
-        flex-wrap: nowrap
         .photo-container
             .photo
                 width: 300px
                 max-width: 300px
         .profile-container
             width: 600px
+            .profile
+                .profile-content
+                    font-size: 1.3rem
             
                 
