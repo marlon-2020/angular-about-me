@@ -45,6 +45,13 @@ main
                 transition: height 0.5s
                 text-align: justify
                 font-size: .8rem
+    .square-container
+            width: 70px
+            @include displayFlex(row, center, center, 5px)
+            flex-wrap: nowrap
+            img
+                width: 70px
+
 @media only screen and (min-width: 400px)
     main
         .profile-container
@@ -62,5 +69,17 @@ main
             .profile
                 .profile-content
                     font-size: 1.3rem
-            
-                
+@media only screen and (min-width: 777px)
+    main
+        .square-container
+            position: fixed
+            height: 100dvh
+            top: 0px
+            width: 70px
+            @include displayGrid(70px, center, center, 5px)
+            img
+                width: 70px
+        .square-container:nth-of-type(1)
+            left: 5px
+        .square-container:nth-of-type(2)
+            right: 5px
