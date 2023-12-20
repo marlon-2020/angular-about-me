@@ -10,6 +10,9 @@ const routes: Routes = [
     component: AboutMeComponent
   },
   {
+    path: '', redirectTo: '/about-me', pathMatch: 'full'
+  },
+  {
     path: 'portfolio',
     component: PortfolioComponent
   },
