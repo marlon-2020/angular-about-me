@@ -15,12 +15,39 @@ main
         flex-wrap: wrap
         .card
             @include card(250px, 300px, $black2, 10px)
-            @include displayFlex(column, space-between, center, 0px)
+            @include displayFlex(column, flex-start, center, 20px)
             overflow: hidden
-            img
+            position: relative
+            top: 0
+            padding: 0 0 10px 0
+            figure
                 width: 250px
-                height: 100px
+                background: $white
+                img
+                    width: 250px
             h2, p
                 padding: 0 10px
                 width: 100%
+            h2
                 text-align: center
+            p
+                text-align: justify
+                text-indent: 30px
+            .click-card
+                opacity: 0
+                transition: opacity 0.5s
+                background: rgba(0,0,0,0.5)
+                position: absolute
+                height: 100%
+                width: 100%
+                a
+                    @include displayFlex(row, center, center, 0xp)
+                    height: 0
+                    width: 100% 
+                    text-align: center
+                    font-size: 2rem
+                    transition: height 0.5s
+            &:hover .click-card
+                opacity: 1
+            &:hover .click-card a
+                height: 100%

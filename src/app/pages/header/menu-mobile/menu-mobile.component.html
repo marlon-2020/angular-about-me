@@ -9,8 +9,8 @@
             <div></div>
             <div></div>
         </figure>
-        <a routerLink="/about-me">Sobre mim</a>
-        <a routerLink="/portfolio">Portfolio</a>
+        <a routerLink="/about-me" (click)="changeWidth()" (click)="changeClassName()">Sobre mim</a>
+        <a routerLink="/portfolio" (click)="changeWidth()" (click)="changeClassName()">Portfolio</a>
     </nav>
     <div [className]="className" (click)="changeWidth()" (click)="changeClassName()">
     </div>

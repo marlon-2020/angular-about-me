@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "url": "./assets/images/angular-back.webp",
+            "title": "marlon-mdb",
+            "description": "Tela montada com o uso de angular e uso da API do TMDB",
+            "href": "https://marlon-mdb.vercel.app/movies-view"
+        },
+        {
+            "url": "./assets/images/angular-back.webp",
+            "title": "pokebusca",
+            "description": "Tela montada com angular e uso da API do POKEAPI",
+            "href": ""
+        },
+        {
+            "url": "",
+            "title": "",
+            "description": "",
+            "href": ""
+        }
+    ]
+}

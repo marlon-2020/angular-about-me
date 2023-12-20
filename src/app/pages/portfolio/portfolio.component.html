@@ -2,11 +2,21 @@
     <section class="title-container">
         <h1 class="title">Portfólio</h1>
     </section>
-    <section class="card-container">
-        <div class="card">
-            <img src="" alt="">
-            <h2>título</h2>
-            <p>data</p>
+    <section class="card-container" *ngIf="portfolioList">
+        <div class="card" *ngFor="let item of portfolioList">
+            <figure>
+                <img src="{{ item.url }}" alt="">
+            </figure>
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.description }}</p>
+            <div class="click-card">
+                <a href="{{ item.href }}" target="_blank">Veja</a>
+            </div>
+        </div>
+    </section>
+    <section class="card-container" *ngIf="!portfolioList">
+        <div class="card" *ngFor="let item of portfolioList">
+            <p>Sem itens</p>
         </div>
     </section>
 </main>
