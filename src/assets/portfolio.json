@@ -10,7 +10,7 @@
             "url": "./assets/images/angular-back.webp",
             "title": "pokebusca",
             "description": "Tela montada com angular e uso da API do POKEAPI",
-            "href": ""
+            "href": "https://marlon-pokebusca.vercel.app/"
         },
         {
             "url": "",
